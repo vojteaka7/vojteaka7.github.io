@@ -1,5 +1,6 @@
 ---
 layout: default
+aside: false
 ---
 
 {% include site-header.html %}
@@ -12,13 +13,13 @@ layout: default
     {% include post-meta.html %}
     {{ content }}
 
-    {% include nav-share.html %}
+    <!-- {% include nav-share.html %} -->
 
     {% include post-comments.html %}
 
   </article>
 
-  {% if page.aside == true %}{% include site-aside.html %}{% endif %}
+  <!--  {% if page.aside == true %}{% include site-aside.html %}{% endif %}-->
 
 </main>
 
