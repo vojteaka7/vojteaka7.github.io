@@ -67,8 +67,8 @@ collections:
     output: true
     description: "Mé myšlenky a nápady" # The post list page content
     feature_text: |
-      „A vím, že ambice znovu a znovu vedou k zániku civilizací. - Nimbus (str. 406)“
-    feature_image: "https://picsum.photos/2560/600"
+      „V poznání je síla“
+    feature_image: "https://picsum.photos/2560/600?image=866"
 
 # 6. Jekyll collections settings
 defaults:
