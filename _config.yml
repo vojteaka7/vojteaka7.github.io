@@ -63,7 +63,7 @@ timezone: Europe/Prague # Timezone for blog posts and alike
 # 5. Collections
 collections:
   posts:
-    title: Posts # Needed for Siteleaf
+    title: Příspěvky # Needed for Siteleaf
     output: true
     description: "Mé myšlenky a nápady" # The post list page content
     feature_text: |
