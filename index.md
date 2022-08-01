@@ -2,7 +2,7 @@
 title: Vítejte na mém webu!
 ---
 
-Jsem studednt biskupského gymnázie v Hradci Králové. Baví mě programování a orientační běh.
+Jsem student biskupského gymnázia v Hradci Králové. Baví mě programování a orientační běh.
 
 <section class="section typeset">
     {% assign page = site.posts.first %}
