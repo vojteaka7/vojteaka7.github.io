@@ -127,8 +127,8 @@ navigation_header:
   url: /blog/
 - title: Kategorie
   url: /categories/
-- title: Hledat
-  url: /search/
+    #- title: Hledat
+    #  url: /search/
 
 navigation_footer:
 - title: Vytvořeno za pomoci šablony od Davida Darnese
