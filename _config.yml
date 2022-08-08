@@ -94,7 +94,7 @@ defaults:
 encoding: utf-8 # Make sure the encoding is right
 lang: cs-CZ # Set the site language
 title: "Vojta Č" # Site name or title, also used in jekyll-seo-tag
-logo: "/assets/logos/logo@96px.png" # Site logo, also used in jekyll-seo-tag
+logo: "/assets/logos/logo@64px.png" # Site logo, also used in jekyll-seo-tag
 description: "Můj osobní web." # Site description and default description, also used in jekyll-seo-tag
 url: "https://alembic.darn.es" # Site url, also used in jekyll-seo-tag
 baseurl: ""
