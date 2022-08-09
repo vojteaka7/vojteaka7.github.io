@@ -1,14 +1,14 @@
 // Background colours
-$backgroundColour: #ffffff !default;
+$backgroundColour: #F7F9F9 !default;
 $codeBackgroundColour: #fafafa !default;
 $featureBackgroundColour: #f9fafa !default;
 $accentColour: #05bf85 !default;
 
 // Text colours
 $headingColour: #242e2b !default;
-$bodyColour: #384743 !default;
-$linkColour: #05bf85 !default;
-$hoverColour: #008000 !default;
+$bodyColour: #110B11 !default;
+$linkColour: #50A40C !default;
+$hoverColour: #297373 !default;
 $focusColour: #fa407a !default;
 $captionColour: #a8adac !default;
 $white: #ffffff !default;
@@ -23,7 +23,7 @@ $bodytype: (
 ) !default;
 
 $headingtype: (
-  font-family: '"Merriweather", serif',
+  font-family: '"Pacifico", "Merriweather", serif',
   regular: 400,
   bold: 700,
   cap-height: 0.75

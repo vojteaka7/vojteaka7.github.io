@@ -22,7 +22,7 @@ body {
 // Links.
 a {
   color: $linkColour;
-  text-decoration: none;
+  text-decoration: none !important;
   transition: color .1s, background-color .1s;
 
   &:hover, &:active, &:focus {
