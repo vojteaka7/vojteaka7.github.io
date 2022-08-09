@@ -6,7 +6,7 @@ title: Vítejte na mém webu!
 
 - 👋jmenuji se Vojta
 - 🏫jsem student Biskupského gymnázia v Hradci Králové
-- 🗺baví mě orientační běh
+- 🏃‍♂️baví mě orientační běh
 - 👨‍💻a programování
 
 ##### Kde mě najdete
