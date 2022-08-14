@@ -31,10 +31,12 @@ Navíc lze [odkazovat](https://example.com) a ukazovat `kousky kódu`.
 
 ##### Výsledek
 
+---
 # Tohle je nadpis
 
 A tohle je odstavec. Můžete zde použít _kurzívu_ a text **tlustý**.
 Navíc lze [odkazovat](https://example.com) a ukazovat `kousky kódu`.
+---
 
 ## Github Pages
 
