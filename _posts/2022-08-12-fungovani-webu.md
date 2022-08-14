@@ -29,6 +29,13 @@ A tohle je odstavec. Můžete zde použít _kurzívu_ a text **tlustý**.
 Navíc lze [odkazovat](https://example.com) a ukazovat `kousky kódu`.
 ```
 
+##### Výsledek
+
+# Tohle je nadpis
+
+A tohle je odstavec. Můžete zde použít _kurzívu_ a text **tlustý**.
+Navíc lze [odkazovat](https://example.com) a ukazovat `kousky kódu`.
+
 ## Github Pages
 
 [Github](https://github.com) je stránka pro verzování projektů a jejich ukládání na serveru pro spolupráci více lidí[^1]. Zároveň nabízí zveřnění takového projektu v Jekyllu na internet. Přesně tak je tedy hostovaný tento blog.
