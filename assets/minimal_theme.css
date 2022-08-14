@@ -13,6 +13,8 @@
     --black: #08100E;
     
     --table-border: var(--dark-grey);
+
+    font-size: 1.25em;
 }
 
 body {
