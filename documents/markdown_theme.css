@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --light-green: #A7DBAB;
+    --dark-green: #4D9D8B;
+    --dark: #2A4A55;
+    --red: #D96067;
+    --peach: #FFE3A9;
+    
+    --white: #FFFFFF;
+    --dark-grey: #DDDDDD;
+    --grey: #F0F0F0;
+    --black: #08100E;
+    
+    --table-border: var(--dark-grey);
+}
+
+body {
+    padding: 15px 20%;
+    background-color: var(--white);
+    color: var(--black);
+    font-family: "Noto Sans", sans-serif;
+}
+
+* {margin-top: 1em;}
+li {margin-top: 0;}
+
+
+a {color: var(--dark-green); font-weight: bold;}
+h1,h2,h3,h4,h5,h6 {text-decoration: underline var(--red) solid 2px;}
+mark {background-color: var(--peach);}
+blockquote {
+    border-left: 10px solid var(--dark-green);
+    background-color: var(--grey);
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 20px;
+    /*padding-left: 40px;*/
+}
+
+pre {
+    background-color: var(--grey);
+    padding: 1em;
+}
+pre::first-line {line-height: 0px;}
+code,pre {font-family: "Noto Sans Mono", monospace;}
+
+img {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+ul li:before {
+    content: "−";
+    padding-right: 5px;
+    font-family: "Noto Sans Mono", monospace;
+}
+ol {padding-left: 1em;}
+
+
+table,tr {width: 100%;}
+table {border-spacing: 0px;}
+th {text-align: left;}
+tr,th,td {margin: 0;}
+td,th {padding: 5px;}
+
+tr:nth-child(odd) {background-color: var(--grey);}
+tr:nth-child(even) {background-color: var(--white);}
+
+/*td,th {
+    padding: 5px;
+    border-left: 2px solid var(--table-border);
+}
+th {
+    border-bottom: 2px solid var(--table-border);
+}
+td:nth-child(1),th:nth-child(1) {border-right: none !important;}*/
+
+/*td,*/th {border-bottom: 2px dashed var(--table-border);}
+/*table {border: .5px solid var(--table-border);}*/
