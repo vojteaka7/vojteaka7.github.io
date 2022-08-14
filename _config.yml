@@ -127,6 +127,8 @@ navigation_header:
   url: /blog/
 - title: Kategorie
   url: /categories/
+- title: Odkazy
+  url: /links/
     #- title: Hledat
     #  url: /search/
 
