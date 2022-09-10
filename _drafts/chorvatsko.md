@@ -84,3 +84,4 @@ Brijuni je sousostroví nacházející se u města Fažana. Za doby Jugoslávie 
 {{ include figure.html image="/assets/images/chorvatsko/brijuni3.jpg" position="left" }}
 {{ include figure.html image="/assets/images/chorvatsko/brijuni4.jpg" position="right" }}
 
+Dovolenou v Chorvatsku jsem si určitě užil. Doufám, že jste vy si užili tento článek. Děkuji za pozornost
