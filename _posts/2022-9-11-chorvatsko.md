@@ -2,6 +2,7 @@
 title: Národní parky chorvatska
 categories:
 - Cestování
+excerpt: V druhé půlce srpna jsme na 14 dní s mou rodinou vyrazili na rekreačně-turistickou dovolenou. V rámci té turistické části jsme navštívili 7 z 8 národních parků, které se v Chorvatsku nacházejí. Nyní se je pokusím seřadit dle osobní preference.
 ---
 
 V druhé půlce srpna jsme na 14 dní s mou rodinou vyrazili na rekreačně-turistickou dovolenou. V rámci té turistické části jsme navštívili 7 z 8 národních parků, které se v Chorvatsku nacházejí. Nyní se je pokusím seřadit dle osobní preference.
