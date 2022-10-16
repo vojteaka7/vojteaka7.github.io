@@ -69,6 +69,10 @@ collections:
     feature_text: |
       *„V poznání je síla“*
     feature_image: "https://picsum.photos/2560/600?image=866"
+  photos:
+    title: Fotky
+    output: true
+    decription: "Nemám Instagram. Zde najdete kolekce fotek, které považuji za sdíleníhodné."
 
 # 6. Jekyll collections settings
 defaults:
@@ -89,6 +93,12 @@ defaults:
       type: "pages"
     values:
       layout: page # Set the default layout for pages
+  -
+    scope:
+      path: "photos/"
+      type: "photos"
+    values:
+      layout: post
 
 # 7. Site settings
 encoding: utf-8 # Make sure the encoding is right
