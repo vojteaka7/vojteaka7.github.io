@@ -16,6 +16,13 @@ body[a="dark"] { @include dark-appearance; }
 @media (prefers-color-scheme: dark) {
   body[a="auto"] { @include dark-appearance; }
 }
+
+// ------------------ COLORS ------------------ //
+$blue: #4281a4ff;
+$green: #48a9a6ff;
+$yellow: #d4b483ff;
+$red: #c1666bff;
+
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
@@ -46,12 +53,12 @@ p { margin: 1rem 0; }
 li { margin: 0.4rem 0; }
 
 a {
-  color: ForestGreen;
+  color: $blue;
 
-  &:visited { color: darkorchid; }
+  &:visited { color: $green; }
 }
 
-*:target { background: yellow; }
+*:target { background: $yellow; }
 
 .w {
   max-width: 640px;
