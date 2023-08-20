@@ -1,12 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
 
+// ------------------ COLORS ------------------ //
+$blue: #4281a4ff;
+$green: #48a9a6ff;
+$yellow: #d4b483ff;
+$red: #c1666bff;
+$white: white
+$black: black
+
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-  filter: invert(1);
-  img {
-    filter: invert(1);
+  $white: black
+  $black: white
 
-    &.ioda { filter: invert(0); }
+  img.ioda {
+    filter: invert(1);
   }
 }
 
@@ -17,23 +25,18 @@ body[a="dark"] { @include dark-appearance; }
   body[a="auto"] { @include dark-appearance; }
 }
 
-// ------------------ COLORS ------------------ //
-$blue: #4281a4ff;
-$green: #48a9a6ff;
-$yellow: #d4b483ff;
-$red: #c1666bff;
 
 // -------------------------------------------- //
 
 // bg color is also needed in html in order to
 // block body's background propagation
 // see: https://stackoverflow.com/a/61265706
-html, body { background: white; }
+html, body { background: $white; }
 
 html { height: 100%; }
 
 body {
-  color: black;
+  color: $black;
   font-family: monospace;
   font-size: 16px;
   line-height: 1.4;
@@ -79,14 +82,14 @@ hr {
 table { width: 100%; }
 
 table, th, td {
-  border: thin solid black;
+  border: thin solid $black;
   border-collapse: collapse;
   padding: 0.4rem;
 }
 
 code {
-  color: white;
-  background: black;
+  color: $white;
+  background: $black;
 }
 
 div.highlighter-rouge code {
@@ -98,7 +101,7 @@ div.highlighter-rouge code {
 
 blockquote {
   font-style: italic;
-  border: thin solid black;
+  border: thin solid $black;
   padding: 1rem;
 
   p { margin: 0; }
