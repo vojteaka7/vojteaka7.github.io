@@ -10,8 +10,8 @@ $black: black;
 
 // -------------- THEME SWITCHER -------------- //
 @mixin dark-appearance {
-  $white: black
-  $black: white
+  $white: black;
+  $black: white;
 
   img.ioda {
     filter: invert(1);
