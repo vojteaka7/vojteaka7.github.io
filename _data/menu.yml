@@ -25,3 +25,6 @@ entries:
 
   - title: rss
     url: feed.xml
+
+  - title: Kde jsem chyboval? ◪
+    url: /chyby/index.html

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+    <title>Kde jsem chyboval?</title>
+    <script
+       src="https://code.jquery.com/jquery-3.7.1.min.js"
+       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+       crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+    <style>
+        pre {margin: 0px;}
+        html {font-family: system-ui;}
+    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <h1>Kde jsem chyboval?</h1>
+
+    <p>Jednoduchá aplikace pro orienťáky, která ti řekne, které kontroly se ti nepovedly. Stačí zadat svou registračku a ID závodu, které najdeš u každého závodu v ORISu. Program porovnává tvé ztráty na každou kontrolu s nejlepším 
+    mezičasem. Pokud je na nějakou kontrolu ztráta výrazně vyšší, než na jiné kontroly, označí ji za nepovedenou. Není to dokonalé a pokud se ti nepovedly všechny kontroly, tak to program nepozná, protože je ztráta u všech kontrol 
+    stejně velká (i přesto že je vyšší, než v jiných závodech).</p>
+
+    Registračka (např. <em>XYZ1234</em>)<br>
+    <input type="text" id="registracka"></input><br><br>
+
+    ID závodu (najdeš v ORISu u závodu, pod popiskem <em>ORIS ID</em>)<br>
+    <input type="number" id="zavod"></input><br><br>
+
+    <button onClick="spocitej()">Spočítej</button>
+
+    <p id="error" style="display: none; color: red"></p>
+
+    <div id="udaje" style="display: none; margin-top: 2em;">
+        <pre id="nazev_zavodu"></pre><br>
+
+        <pre>Celkový čas:</pre>
+        <pre id="cas"></pre><br>
+
+        <pre>Co se mi povedlo:</pre>
+        <pre id="povedlo"></pre><br>
+
+        <pre>Co se mi nepovedlo:</pre>
+        <pre id="nepovedlo"></pre>
+    </div>
+</body>
+</html>
