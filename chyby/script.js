@@ -28,8 +28,8 @@ function spocitej() {
     $("#error").css("display", "none");
     $("#udaje").css("display", "none");
 
-    const ODCHYLKA_POVEDENE = -0.20;
-    const ODCHYLKA_NEPOVEDENE = 0.1;
+    const ODCHYLKA_POVEDENE = -0.3;
+    const ODCHYLKA_NEPOVEDENE = 0.3;
 
     const registracka = $("#registracka").val();
     const id_zavodu = $("#zavod").val();
