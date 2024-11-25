@@ -1,10 +1,12 @@
 title: Vojtův web # name of the site
 author: Vojtěch Čečka # name of site's author
 email: vojtech.cecka@gmail.com # email of site's author
-url: https://vojtovoplace.cz # root address of the site
+url: https://vojteaka.cz # root address of the site
 baseurl: "" # subpath of the site, e.g. "/blog" (leave it blank "" if you're site shouldn't use a subpath)
 description: > # description of the site (multiple lines allowed)
   aneb kousky mého života v digitálním balení
+
+locale: cs_CZ
 
 permalink: /:slug.html
 
