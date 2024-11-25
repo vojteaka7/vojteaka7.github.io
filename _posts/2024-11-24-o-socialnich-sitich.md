@@ -13,7 +13,7 @@ na záchodě? Tiktok. Stání ve frontě na oběd? Tiktok! Má otázka ale zní:
 nebo Tiktok? Ptám se, protože věřím, že existují lidé, kteří ráno sundají telefon z nabíječky a položí ho až večer. Procházka v lese? Tiktok. Hodina češtiny? Tiktok. 
 Na návštěve u kamaráda? TIKTOK!!!
 
-A mohl bych tady mluvit o zlých algoritmech, o sociálních bublinách i o tom jak sociální sítě zkreslují realitu, ale to není žádná novinka, o tom já mluvit nechci. Já 
+A mohl bych tady mluvit o zlých algoritmech, o sociálních bublinách i o tom, jak sociální sítě zkreslují realitu, ale to není žádná novinka, o tom já mluvit nechci. Já 
 se jen chci zeptat: Vás to leštění telefonu palcem uspokojuje? Co jste dneska na Tiktoku (/Reels/Shorts) viděli zajímavého? Mně totiž připadá, že tam nic zajímavého 
 není. Přijde mi to spíše jako "tak tohle video je o ničem, ale za okrajem obrazovky, jen jedno posunutí palcem, je určitě něco zajímavého!" Víte co -- víte co mi to 
 připomíná? Herní automaty. "Tentokrát to nevyšlo, ale příště určitě vyhraju... Určitě."
