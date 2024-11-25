@@ -31,7 +31,7 @@ stydět se za to, co jsem sdílel, když mi bylo 10.)
 vyřešil: Není náhodou možné, že se s těmito lidmi vídáte i v realitě? Mohou vám to třeba říct osobně. (Pravdou je, že jsou lidé, se kterými chcete zůstat v kontaktu, 
 ale osobně se s nimi pravidelně nevídáte. Podle mě se však hodí zvážit, jestli spolu můžete komunikovat i někde, kde nejde zároveň zabít celý den scrollováním na 
 Reels.) Jediní lidé, se kterými se nevídám moc často, a přesto mě zajímá, co dělají (hodně totiž cestují) jsou strejda s tetou. Mé okolí sociální sítě stále má a to 
-je způsob, kterým se ke mně dostávají informace, ať už o strejdových cestách, nebo o aktuálním dění. (Nemyslete si třeba, že nevím, kdo je P Diddy a z novodobé slovní 
+je způsob, kterým se ke mně dostávají informace, ať už o strejdových cestách, nebo o aktuálním dění. (Nemyslete si třeba, že nevím, kdo je P Diddy, a z novodobé slovní 
 zásoby taky nepropadám. Mám svoje zdroje.) Teď tu však nastává trochu paradoxní situace, kterou jsem stále nevyřešil. Když všem doporučuji, jak je skvělé nemít 
 Instagram, jak se potom budu od svého okolí dozvídat aktuální informace? Odpověď je jednoduchá: Instagram si nerušte, osvobozený od jeho otěží smím být jen já. /j
 
