@@ -16,9 +16,6 @@ entries:
       - title: github
         url: https://github.com/vojteaka7/
 
-  - title: 🎄wishlist k vánocům ;)
-    url: https://www.youtube.com/watch?v=yXQViqx6GMY
-
   - title: příspěvky
     post_list:
       limit: 5
