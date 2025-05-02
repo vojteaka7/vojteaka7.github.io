@@ -19,7 +19,7 @@ A nápad byl na světě...
 ![bílá šatní skřín, vedle ní je ještě z prostěradel amatersky vytvořené promítací plátno](/assets/img/camera_obscura/pouze_platno.jpg)   
 Tohle je naše promítací plátno.
 
-![balkonové dvěře z venku přelepené alobalem](/assets/img/camera_obsucra/venku.jpg)   
+![balkonové dvěře z venku přelepené alobalem](/assets/img/camera_obscura/venku.jpg)   
 Takhle to vypadalo zvenku.
 
 Problém s camerou obscurou je samozřejmě ten, že čím větší je díra, tím světlejší, ale zároveň méně kvalitní je obraz. Na 
