@@ -48,7 +48,4 @@ praktické. Závěrem bych dodal, že to rozhodně stálo za to. Určitě je to 
 (Ještě jsem chtěl přidat odkaz na složku s ostatními fotkami, včetně popisků, o jakou velikost díry se jedná, ale nějak se mi 
 nepodařilo to zprovoznit. Pokud byste o ně někdo měl zájem, tak klidně napište.)
 
-[^1]: Camera obscura je jednoduché optické zařízení. Do třeba krabice od bot uděláte opravdu malou díru, kterou dovnitř 
-prochází světlo. Věci venku se pak promítají převráceně na protější stěnu té krabice. Používala se na počátcích fotografie, jelikož 
-nepotřebuje čočky. Dnes se jedná spíše o zábavný fyzikální pokus, někteří ji také používají pro umělecké fotografie. Více 
-informací, včetně nákresu poptávejte na [Wikipedii](https://cs.wikipedia.org/wiki/Camera_obscura).
+[^1]: Camera obscura je jednoduché optické zařízení. Do třeba krabice od bot uděláte opravdu malou díru, kterou dovnitř prochází světlo. Věci venku se pak promítají převráceně na protější stěnu té krabice. Používala se na počátcích fotografie, jelikož nepotřebuje čočky. Dnes se jedná spíše o zábavný fyzikální pokus, někteří ji také používají pro umělecké fotografie. Více informací, včetně nákresu poptávejte na [Wikipedii](https://cs.wikipedia.org/wiki/Camera_obscura).
