@@ -113,8 +113,12 @@ img {
 
     img {
         width: 100%;
-        margin: .5em 0px;
+        margin-top: 1em;
 
         border-radius: .5em;
+
+        &:first-child {
+            margin-top: 0px;
+        }
     }
 }
