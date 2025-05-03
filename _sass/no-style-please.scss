@@ -104,3 +104,17 @@ img {
     max-width: 100%;
   }
 }
+
+
+/* styly pro galerii ve stylu Pinterestu */
+.galerie {
+    columns: 200px;
+    column-gap: 1em;
+
+    img {
+        width: 100%;
+        margin: .5em 0px;
+
+        border-radius: .5em;
+    }
+}
