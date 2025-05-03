@@ -116,9 +116,9 @@ img {
         margin-top: 1em;
 
         border-radius: .5em;
-
-        &:first-child {
-            margin-top: 0px;
-        }
+    }
+    
+     p img:first-child {
+        margin-top: -1em;
     }
 }
