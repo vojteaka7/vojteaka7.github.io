@@ -29,7 +29,7 @@ O prázdninách jsem také byl od 17. do 31. července na megadovolené na Islan
 
 Island jsme objeli kolem dokola po Ring Road, což je silnice, která vede víceméně podél pobřeží, kolem celého Islandu. Začali jsme v Reykjavíku a postupovali jsme proti směru hodinových ručiček. Trochu nám do toho hodila vidle (ne)dostupnost ubytování tam, kde jsme je zrovna potřebovali, takže jsme museli někde spát více nocí a na konci dne se vrátit.
 
-<div markdown="1">
+<div markdown="1" class="galerie">
 ![](/assets/img/prazdniny2025/island1.jpg)
 ![](/assets/img/prazdniny2025/island2.jpg)
 ![](/assets/img/prazdniny2025/island3.jpg)
