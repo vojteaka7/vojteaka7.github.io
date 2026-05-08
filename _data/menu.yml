@@ -8,6 +8,7 @@ entries:
       - title: 🏫jsem student Biskupského gymnázia v Hradci Králové
       - title: 🏃‍♂️baví mě orientační běh
       - title: 👨‍💻a programování
+      - title: 🌈gay
 
   - title: kontakt
     entries:
@@ -15,6 +16,8 @@ entries:
         url: mailto:vojtech.cecka@gmail.com
       - title: github
         url: https://github.com/vojteaka7/
+      - title: tumblr
+        url: https://www.tumblr.com/blog/vojteaka
 
   - title: příspěvky
     post_list:
