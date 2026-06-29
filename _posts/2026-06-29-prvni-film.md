@@ -17,7 +17,7 @@ Ostřit musíte podle stupnice vzdáleností na objektivu. Clona i čas závěrk
 ---
 {: data-content="fotky"}
 
-<div class="galerie">
+<div class="galerie" markdown="1">
 ![kampus UHK s trhovými stánky](/assets/img/prvni-film/25.jpg)
 ![železniční most v dálce](/assets/img/prvni-film/23.jpg)
 ![malá ulice s rodinnými domky](/assets/img/prvni-film/22.jpg)
@@ -32,7 +32,7 @@ Ostřit musíte podle stupnice vzdáleností na objektivu. Clona i čas závěrk
 
 Ne vždy se mi ale povedlo správně odhadnou vhodné nastavení, a tak spousta fotek byla podexponovaná, tj. na film dopadlo příliš málo světla.
 
-<div class="galerie">
+<div class="galerie" markdown="1">
 ![](/assets/img/prvni-film/15.jpg)
 ![](/assets/img/prvni-film/13.jpg)
 ![](/assets/img/prvni-film/12.jpg)
