@@ -1,5 +1,5 @@
 ---
-title: Real or fake? #heterocykly edition
+title: Real or fake? heterocykly edition
 layout: post
 ---
 
