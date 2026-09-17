@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Real or fake? #heterocykly edition</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width" />
+	<style>
+		table {
+			height: 100vh;
+		}
+		td {
+			text-align: center;
+		}
+		#nazev {
+			font-size: 7em;
+		}
+		.tlacitko {
+			font-size: 4em;
+		}
+
+		#scoreboard h1 {font-size: 6.5em;}
+		#scoreboard h2 {font-size: 4em;}
+		#scoreboard p {font-size: 7em;}
+
+		@media (max-width: 600px) {
+			#scoreboard h1 {font-size: 2.75em;}
+			#scoreboard h2 {font-size: 2em;}
+			#scoreboard p {font-size: 3em;}
+		}
+
+		@media (max-width: 1000px) {
+			#scoreboard h1 {font-size: 5em;}
+			#scoreboard h2 {font-size: 4.5em;}
+			#scoreboard p {font-size: 5em;}
+		} 
+		
+	</style>
+</head>
+<body>
+	<table class="w-100">
+		<tr id="baner"><td class="bg-info"><h1 class="my-0"><i>Real or fake?</i> Urči zda tyto heterocykly skutečně existují</h1></td></tr>
+		<tr><td class="align-middle">
+			<div id="herni-grafika">
+				<h1 id="nazev" class=".display-1 mb-5"></h1>
+				<button onClick="real()" class="tlacitko btn btn-success me-5" id="real">Real</button>
+				<button onClick="fake()" class="tlacitko btn btn-danger" id="fake">Fake</button>
+			</div>
+			<div id="scoreboard">
+				<h1 class=".display-1 mb-0">Real or fake?</h1>
+				<h2 class=".display-2 mb-2"><i>#heterocykly editon</i></h2>
+				<p id="skore"></p>
+			</div>
+		</td></tr>
+	</table>
+</body>
+
+<script
+  src="https://code.jquery.com/jquery-4.0.0.min.js"
+  integrity="sha256-OaVG6prZf4v69dPg6PhVattBXkcOWQB62pdZ3ORyrao="
+  crossorigin="anonymous"></script>
+
+<script>
+const getRandomInteger = (max) => {
+  min = 0
+  max = Math.floor(max)
+
+  return Math.floor(Math.random() * (max - min)) + min;
+}
+
+var skore = 0;
+var cislo_otazky = 1;
+const pocet_otazek = 5;
+var aktualni = null;
+
+var slova = [
+	["oxiran", true],
+	["dioxiran", true],
+	["furan", true],
+	["thiofen", true],
+	["pyrrolidin", true],
+	["pyrazol", true],
+	["imidazol", true],
+	["thiazol", true],
+	["pyridin", true],
+	["piperidin", true],
+	["pyrrol", true],
+	["pyrimidin", true],
+	["purin", true],
+	["porfin", true],
+	["pyrazin", true],
+	["pyridazin", true],
+	["prolin", true],
+	["indol", true],
+	["furanidin", false],
+	["pimpidimpidimol", false],
+	["imidazin", false],
+	["difuran", false],
+	["thiazin", false],
+	["pipiridin", false],
+	["pyrrolol", false],
+	["porfinizol", false],
+	["pyranidin", false],
+	["pyranazin", false],
+	["indimidin", false],
+	["chinolinol", false],
+	["fuferidin", false],
+	["furol", false],
+	["pyrofen", false],
+	["porfimidin", false],
+	["prolinizol", false],
+	["thiomidin", false],
+];
+
+
+
+function real() {
+	if (aktualni[1]) {
+		vyhodnoceni(true);
+	} else {
+		vyhodnoceni(false);
+	}
+}
+
+
+function fake() {
+	if (!aktualni[1]) {
+		vyhodnoceni(true);
+	} else {
+		vyhodnoceni(false);
+	}
+}
+
+
+function vyhodnoceni(spravne) {
+	skore += spravne;
+
+	$(".tlacitko").addClass("disabled");
+
+	if (spravne) {
+		$("#nazev").addClass("text-success");
+}
+	else {
+		$("#nazev").addClass("text-danger");	
+}
+
+	setTimeout(dalsi_otazka, 1000);
+}
+
+
+function dalsi_otazka() {
+	$("#nazev").removeClass("text-success").removeClass("text-danger");
+	$(".tlacitko").removeClass("disabled");
+
+	if (cislo_otazky < pocet_otazek) {
+		cislo_otazky++;
+		nova_otazka();
+		
+	} else {
+		konec();
+	}
+
+	
+}
+
+
+function nova_otazka() {
+	/* vybere ještě nepoužité slovo a v seznamu ho nahradí za null (= už příště ví že bylo použito)*/
+
+	aktualni = null;
+	while (aktualni == null) {
+		var index = getRandomInteger(slova.length)
+		aktualni = slova[index];
+	}
+	slova[index] = null;
+
+	$("#nazev").text(aktualni[0]);
+}
+
+
+function konec() {
+	$("#herni-grafika").hide();
+	$("#baner").hide()
+
+	$("#scoreboard").show()
+	$("#skore").text("tvoje skóre je " + skore + " z " + pocet_otazek + "🏆");
+}
+
+$("#scoreboard").hide()
+nova_otazka();
+</script>
+</html>
